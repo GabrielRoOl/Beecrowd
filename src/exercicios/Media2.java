@@ -30,6 +30,7 @@ public class Media2 {
 		MEDIA = ((A * 2) + (B * 3) + (C * 5)) / 10;
 		System.out.println("MEDIA = " + String.format("%.1f", MEDIA));
 
+		sc.close();
 	}
 
 }
