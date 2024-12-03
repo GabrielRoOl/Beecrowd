@@ -2,7 +2,7 @@ package beecrowd.iniciante;
 
 import java.util.Scanner;
 
-public class Extemamente_basico {
+public class Extremamente_basico {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
