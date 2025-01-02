@@ -12,7 +12,7 @@ public class TDA_Racional {
 
 		Scanner sc = new Scanner(System.in);
 
-		String entr = sc.nextLine();
+		String entr = sc.nextLine();		
 		String[] vetor = entr.split(" ");
 
 		int N1 = Integer.parseInt(vetor[0]);
@@ -20,7 +20,7 @@ public class TDA_Racional {
 		int N2 = Integer.parseInt(vetor[6]);
 		int D2 = Integer.parseInt(vetor[4]);
 
-		System.out.println((double)soma(N1, D1, N2, D2));
+		System.out.println((double)soma(N1, D1, D2, N2));
 		
 
 	}
