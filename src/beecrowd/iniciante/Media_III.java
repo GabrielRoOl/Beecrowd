@@ -13,8 +13,8 @@ public class Media_III {
 		double N2 = sc.nextDouble();
 		double N3 = sc.nextDouble();
 		double N4 = sc.nextDouble();
-		double exame = 1;
-		double media = Math.round((((N1 * 2) + (N2 * 3) + (N3 * 4) + (N4 * 1)) / 10) * 10.0) / 10.0;
+
+		double media = Math.floor((((N1 * 2) + (N2 * 3) + (N3 * 4) + (N4 * 1)) / 10) * 10.0) / 10.0;
 
 
 		System.out.println("Media: " + String.format("%.1f", media));
@@ -25,7 +25,7 @@ public class Media_III {
 			System.out.println("Aluno aprovado.");
 		} else if (media >= 5.0 && media <= 6.9) {
 			System.out.println("Aluno em exame.");
-			exame = sc.nextDouble();
+			double exame = sc.nextDouble();
 			System.out.println("Nota do exame: " + String.format("%.1f", exame));
 			exame = (exame + media) / 2;
 			if (exame >= 5.0) {
