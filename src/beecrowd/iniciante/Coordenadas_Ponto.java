@@ -24,9 +24,9 @@ public class Coordenadas_Ponto {
 		} else if( x == 0.0 && y == 0.0) {
 			System.out.println("Origem");
 		} else if(x == 0.0 && (y > 0.0 || y < 0.0)) {
-			System.out.println("Eixo X");
-		} else if(y == 0.0 && (x < 0.0 || x > 0.0)) {
 			System.out.println("Eixo Y");
+		} else if(y == 0.0 && (x < 0.0 || x > 0.0)) {
+			System.out.println("Eixo X");
 		}
 		sc.close();
 	}
