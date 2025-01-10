@@ -13,16 +13,14 @@ public class Triangulo {
 		double y = sc.nextDouble();
 		double z = sc.nextDouble();
 		
-		double menor = x;
-		
-		if(y < z && y < x) {
-			menor = y;
-		} 
-		else if( z < y && z < x) {
-			menor = z;
+		if(x + y <= z || x + z <= y || z + y <= x) {
+			double area = ((x + y) * z) / 2;
+			System.out.println("Area = " + area);
+		} else {
+			double perimetro = x + y + z;
+			System.out.println("Perimetro = " + perimetro);			
 		}
 		
-		System.out.println(menor);
 		
 	}
 
