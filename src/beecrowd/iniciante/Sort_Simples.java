@@ -15,7 +15,7 @@ public class Sort_Simples {
 
 		if (x1 <= x2 && x1 <= x3) {
 			menor = x1;
-			if (x2 <= x3) {
+			if (x2 < x3) {
 				meio = x2;
 				maior = x3;
 			} 
@@ -25,7 +25,7 @@ public class Sort_Simples {
 			}
 		} else if (x2 <= x1 && x2 <= x3) {
 			menor = x2;
-			if (x1 <= x3) {
+			if (x1 < x3) {
 				meio = x2;
 				maior = x3;
 			} 
@@ -36,7 +36,7 @@ public class Sort_Simples {
 		} 
 		else {
 			menor = x3;
-			if (x2 <= x1) {
+			if (x2 < x1) {
 				meio = x2;
 				maior = x1;
 			} 
