@@ -27,9 +27,11 @@ public class TiposTriangulos {
 			a = aux;
 		}
 
+		// verifica se realmente é um triangulo primeiro
 		if (a >= b + c) {
 			System.out.println("NAO FORMA TRIANGULO");
 		}else {
+			// verifica o tipo de triangulo
 			if ((a * a) == ((b * b) + (c * c))) {
 				System.out.println("TRIANGULO RETANGULO");
 			}
@@ -39,6 +41,7 @@ public class TiposTriangulos {
 			if ((a * a) < ((b * b) + (c * c))) {
 				System.out.println("TRIANGULO ACUTANGULO");
 			}
+			// verifica se é equilatero ou isosceles
 			if (a == b && b == c && c == a) {
 				System.out.println("TRIANGULO EQUILATERO");
 			}
