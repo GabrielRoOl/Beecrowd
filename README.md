@@ -1,6 +1,9 @@
 # Soluções Beecrowd
 
 Este repositório contém minhas soluções para os desafios da plataforma [Beecrowd](https://www.beecrowd.com.br/), organizadas por nível de dificuldade e categoria.
+Cada problema é descrito em uma página com um enunciado e um conjunto de exemplos de entrada e saída. As soluções aqui apresentadas foram desenvolvidas em Java, mas futuramente será possível encontrar soluções em outras linguagens no repositório.
+
+
 
 ## Estrutura do Repositório
 
