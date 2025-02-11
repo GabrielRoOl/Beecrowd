@@ -1,6 +1,6 @@
 package beecrowd.iniciante;
-
-import java.util.Scanner;
+	
+	import java.util.Scanner;
 
 public class RestoDivisao {
 
@@ -13,7 +13,7 @@ public class RestoDivisao {
 		int maior = X > Y ? X : Y;
 		int menor = X < Y ? X : Y;
 		
-		for(int i= menor; i < maior; i++) {
+		for(int i= menor + 1; i < maior; i++) {
 			if(i % 5 == 3) {
 				System.out.println(i);
 			}
