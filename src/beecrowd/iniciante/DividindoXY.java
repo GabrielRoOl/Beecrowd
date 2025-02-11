@@ -15,10 +15,10 @@ public class DividindoXY {
 		for(int i = 0; i < N; i++) {
 			int X = sc.nextInt();
 			int Y = sc.nextInt();
-			if(X < 0) {
+			if(Y == 0) {
 				System.out.println("divisao impossivel");
 			}else {
-				div = X / Y;
+				div = (double) X / Y;
 				System.out.println(String.format("%.1f", div));
 			}
 		}
