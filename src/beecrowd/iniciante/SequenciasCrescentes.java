@@ -11,8 +11,14 @@ public class SequenciasCrescentes {
 		
 		while(x != 0) {
 			x = sc.nextInt();
-			for(int i = 0; i < x; i++) {
-				System.out.println(i);
+			for(int i = 1; i <= x; i++) {
+				System.out.print(i);
+				if(i != x){
+					System.out.print(" ");
+				}
+				if(i == x){
+					System.out.println();
+				}
 			}
 		}
 	}
